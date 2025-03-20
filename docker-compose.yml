@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  appmuscu:
+    image: appmuscu
+    build:
+      context: .
+      dockerfile: ./Dockerfile
